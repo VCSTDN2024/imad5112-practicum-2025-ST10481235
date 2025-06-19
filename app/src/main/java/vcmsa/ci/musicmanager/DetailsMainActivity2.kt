@@ -1,5 +1,6 @@
 package vcmsa.ci.musicmanager
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -31,8 +32,12 @@ class DetailsMainActivity2 : AppCompatActivity() {
 
         DetailsTextView.text= processor.getAverageRating().toString()
 
+        findViewById<Button>(R.id.Displaybtn).setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java ))
+        }
+
         findViewById<Button>(R.id.Exitbtn2).setOnClickListener{
-            finish()
+            startActivity(Intent(this, MainActivity::class.java))
 
         }
     }

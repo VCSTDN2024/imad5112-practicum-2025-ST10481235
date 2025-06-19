@@ -24,6 +24,17 @@
         android:shadowDy="0"
         android:shadowRadius="20"/>
 
+    <Button
+        android:id="@+id/Displaybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display details"
+        android:backgroundTint="#008000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#39FF14"
+        android:textStyle="bold" />
+
 
     <TextView
         android:id="@+id/DetailstextView"
@@ -55,5 +66,6 @@
         android:layout_gravity="center"
         android:textColor="#39FF14"
         android:textStyle="bold"/>
+
 
 </LinearLayout>
