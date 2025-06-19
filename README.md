@@ -51,7 +51,12 @@ The design on **Song Manager App** was influenced by the key design features:
    Activity main for the details screen
 8. ![Actvity main 2 (Details screen) 2](https://github.com/user-attachments/assets/7ab0b141-bcf0-4189-a452-2c0e43ead8cb)
    Activity main for the details screen
-9. 
+9. ![Main Actvity 2 (Details screen)](https://github.com/user-attachments/assets/1544e744-6b98-4d82-b651-db0fc4288593)
+   MainActivity for the details screen
+10 ![SongPlaylist (object)](https://github.com/user-attachments/assets/2a229ca7-29da-441f-a32d-c4a0a8504d47)
+   SongPlaylist object kt
+
+
 
 
 
