@@ -61,10 +61,13 @@ The design on **Song Manager App** was influenced by the key design features:
     Main screen of application whilst running
 13. ![Main screen selecting a song](https://github.com/user-attachments/assets/1fd229d4-22a9-495b-9980-fb42e708a307)
     Main screen whilst selecting a song
-14. ![Main screen selecting artist](https://github.com/user-attachments/assets/90d07807-291a-4713-bac0-8cb2215ca6be)
+14. ![Main screen selecting artist](https://github.com/user-attachments/assets/85cd9d08-1219-4d70-aae4-610c7b8107a0)
     Main screen whilst selecting a artist
 15. ![Main screen seletcing a rating](https://github.com/user-attachments/assets/e8f47804-c672-4734-8c4b-5d3850bfb328)
     Main screen whilst selecting a rating
+16. ![Details screen](https://github.com/user-attachments/assets/7a7ddb8e-4a47-49bf-a83f-d1d37d553c84)
+    Details screen
+
 
 
 
