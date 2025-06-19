@@ -82,13 +82,14 @@ From these challenges, i fully learnt how to properly run my app and how to comf
 ## 7. Future enhancements
 Even though the current app provides the user with the key goal, there are many features that could be added to improve the application for the future.
 
-**Feature 1:**: Users my create playlists to their own music choices
+**Feature 1:** Users my create playlists to their own music choices
 **Feature 2:** Allows users to comfortably give their feedback on a specific song
 **Feature 3:** Allowing users to be able to use dark mode to save batter usage.
 
 These would improve the level of usability for the application in the future.
 
 ## 8. References
+1. 
 
 
 
