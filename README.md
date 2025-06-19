@@ -55,6 +55,22 @@ The design on **Song Manager App** was influenced by the key design features:
    MainActivity for the details screen
 10 ![SongPlaylist (object)](https://github.com/user-attachments/assets/2a229ca7-29da-441f-a32d-c4a0a8504d47)
    SongPlaylist object kt
+11. ![Processor kt](https://github.com/user-attachments/assets/0cbc338e-5bda-498e-a191-0ca25e052bad)
+    Processor information kt
+12. ![Main screen (2)](https://github.com/user-attachments/assets/439cf14e-9ae4-4e77-9703-55bc953bd48a)
+    Main screen of application whilst running
+13. ![Main screen selecting a song](https://github.com/user-attachments/assets/1fd229d4-22a9-495b-9980-fb42e708a307)
+    Main screen whilst selecting a song
+14. ![Main screen selecting artist](https://github.com/user-attachments/assets/90d07807-291a-4713-bac0-8cb2215ca6be)
+    Main screen whilst selecting a artist
+15. ![Main screen seletcing a rating](https://github.com/user-attachments/assets/e8f47804-c672-4734-8c4b-5d3850bfb328)
+    Main screen whilst selecting a rating
+
+
+
+
+
+
 
 
 
