@@ -6,7 +6,7 @@
 **Introduction to Mobile Application Development**
 
 # 1. LINKS:
-**Github repository:**
+**Github repository:** https://github.com/VCSTDN2024/imad5112-practicum-2025-ST10481235/tree/main 
 
  # 2. Project Overview
 The **Song Manager App** is a mobile application designed specifically for a practicum in the IMAD subject.
