@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music manager"
+        android:textSize="30sp"
+        android:textStyle="bold|normal"
+        android:textColor="#008000"
+        android:shadowColor="#006400"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"/>
+
+    <Button
+        android:id="@+id/Addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to playlist"
+        android:backgroundTint="#008000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#39FF14"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/SongtitletextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose song title below:"
+        android:textSize="20sp"
+        android:textStyle="italic|normal"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/Songtitlespinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/ArtisttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose artist name of song:"
+        android:textSize="20sp"
+        android:textStyle="italic|normal"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/Artistspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/RatingtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating the song:"
+        android:textSize="20sp"
+        android:textStyle="italic|normal"
+        android:textColor="@color/white" />
+
+
+    <Spinner
+        android:id="@+id/Ratingspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/Nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:backgroundTint="#008000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#39FF14"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:backgroundTint="#008000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#39FF14"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
