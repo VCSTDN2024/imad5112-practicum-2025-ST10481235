@@ -89,7 +89,32 @@ Even though the current app provides the user with the key goal, there are many 
 These would improve the level of usability for the application in the future.
 
 ## 8. References
-1. 
+1. Figma, [s.a]. Neon green. [online] Available at: https://www.figma.com/colors/neon-green/ Accessed 19 June 2025
+2. Billboard, [s.a]. Billboard Hot 100™. [online] Available at: https://www.billboard.com/charts/hot-100/ Accessed 19 June 2025
+3. Figma, [s.a]. Dark green. [online] available at: https://www.figma.com/colors/dark-green/ Accessed 19 June 2025
+4. The Independent Institute of Education.  JesselSookha. 2025. Introduction To Programming Logic [IPRG5111] LU6:
+Available at: https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B44999D8E-32B6-4613-B393-F77FCC911175%7D&file=IPRG5111MM.docx&action=default&mobileredirect=true
+[Accessed 19 June 2025]
+
+
+## 9. List of Figures:
+Figure 1 Activity main for the main screen	2
+Figure 2 Activity main for the main screen	3
+Figure 3 Activity main for the main screen	3
+Figure 4 MainActvity for the main screen	4
+Figure 5 MainActivity for the main screen	4
+Figure 6 MainActvity for the main screen	5
+Figure 7 Activity main for the details screen	5
+Figure 8 Activity main for the details screen	6
+Figure 9 MainActivity for the details screen	6
+Figure 10 SongPlaylist object kt	7
+Figure 11 Processor information kt	7
+Figure 12 Main screen of application whilst running	8
+Figure 13 Main screen selecting a song	8
+Figure 14 Main screen selecting an artist	9
+Figure 15 Main screen selecting a rating	9
+Figure 16 Details screen	10
+
 
 
 
