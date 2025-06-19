@@ -36,24 +36,24 @@ class MainActivity : AppCompatActivity() {
         RatingTV = findViewById(R.id.RatingtextView)
         Ratings = findViewById(R.id.Ratingspinner)
 
-        val songtitles = arrayOf("Love me not", "Hideaway", "MUTT", "Burning Blue")
+        val songtitles = arrayOf("Love me not", "Hideaway", "MUTT", "Burning Blue") // names of the songs
         Songtitlespinner.adapter =
             ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, songtitles)
 
-        val artistnames = arrayOf("Ravyn Lenae", "Kiesza", "Leon Thomas", "Mariah the scientist")
+        val artistnames = arrayOf("Ravyn Lenae", "Kiesza", "Leon Thomas", "Mariah the scientist") //artists of the above songs
         Artistspinner.adapter =
             ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, artistnames)
 
-        val ratings = arrayOf("1", "2", "3", "4", "5")
+        val ratings = arrayOf("1", "2", "3", "4", "5") // ratings between 1-5
         Ratings.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, ratings)
 
 
         findViewById<Button>(R.id.Nextbtn).setOnClickListener {
-            startActivity(Intent(this, DetailsMainActivity2::class.java))
+            startActivity(Intent(this, DetailsMainActivity2::class.java)) // moves to the next screen
         }
 
         findViewById<Button>(R.id.Addbtn).setOnClickListener {
-            addEntry()
+            addEntry() // adds a song to the playlist
         }
 
 
