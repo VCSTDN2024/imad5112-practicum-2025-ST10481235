@@ -18,10 +18,11 @@ class DetailsMainActivity2 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_details_main2)
 
+        // Declaring the variable names
         TitletextView= findViewById(R.id.TitletextView)
         DetailsTextView= findViewById(R.id.DetailstextView)
 
-        val processor= Processor (
+        val processor= Processor ( //find this in the SongPlaylist object kt
             SongPlaylist.title,
             SongPlaylist.songspin,
             SongPlaylist.artist,
@@ -30,7 +31,7 @@ class DetailsMainActivity2 : AppCompatActivity() {
             SongPlaylist.ratingSpin
         )
 
-        DetailsTextView.text= processor.getAverageRating().toString()
+        DetailsTextView.text= processor.getAverageRating().toString() // getting the average for the rating
 
         findViewById<Button>(R.id.Displaybtn).setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java ))

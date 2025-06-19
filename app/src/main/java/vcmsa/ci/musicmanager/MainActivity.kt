@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var Artistspinner: Spinner
     private lateinit var RatingTV: TextView
     private lateinit var Ratings: Spinner
+    private lateinit var Comment: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         Artistspinner = findViewById(R.id.Artistspinner)
         RatingTV = findViewById(R.id.RatingtextView)
         Ratings = findViewById(R.id.Ratingspinner)
-
+        Comment= findViewById(R.id.CommentseditText)
         val songtitles = arrayOf("Love me not", "Hideaway", "MUTT", "Burning Blue") // names of the songs
         Songtitlespinner.adapter =
             ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, songtitles)
